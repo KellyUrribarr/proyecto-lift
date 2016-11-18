@@ -1,9 +1,22 @@
-.fondo{
+	.fondo{
 	background-image: url(../img/img_uno.jpg);
-	background-size: cover;
+	background-position: center center;
 	background-repeat: no-repeat;
-	max-width: 100%;
-	max-height: 100%;
+	background-attachment: fixed;
+	background-size: cover;
+	width: 100vw;
+	height: 100vh;
 	
 }
 
+.fondo img{
+	position: relative;
+	top: 20px;
+}
+
+.boton-uno, .boton-dos{
+	text-align: center;
+	width: 100%;
+	position: relative;
+	top: 500px;
+}
