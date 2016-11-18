@@ -1,5 +1,4 @@
-
-	.fondo{
+.fondo{
 	background-image: url(../img/img_uno.jpg);
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -45,7 +44,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8560c9', end
 	color:#fff;
 
 }
-
 
 /*
 .btn_uno, .btn_dos{
