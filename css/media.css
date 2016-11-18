@@ -1,9 +1,13 @@
 @media screen and (max-width: 480px){
-
+	.fondo img{
+		width: 100px;
+		position: relative;
+		left: 34%;
+	}
 }
 
 @media screen and (max-width: 667px){
-
+	
   }
 
 @media screen and (max-width: 1024px){
