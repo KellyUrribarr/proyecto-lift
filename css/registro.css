@@ -13,3 +13,31 @@ form .form-inline{
 .parrafo{
 	padding: 10px;
 }
+
+.btn-nex{
+	background-color: #FB55FD;
+	padding: 20px 5px;
+	color:#fff;
+	font-size: 20px;
+}
+
+.bt{
+	border: 1px;
+	padding: 2% 0%;
+	color: #000;
+	background-color: #fff;
+	text-align: center;
+	border-style: solid;
+    width: 32%;
+    position: relative;
+    left: 2%;
+    margin-bottom: 0%;
+}
+
+.btn-nada{
+	background-color: #fff;
+	padding: 0px 5px;
+	color:#fff;
+	font-size: 20px;
+}
+
