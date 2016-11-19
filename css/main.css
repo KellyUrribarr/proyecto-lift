@@ -16,7 +16,7 @@
 .btn{
 	width: 100%;
 	position: relative;
-	top: 350px;
+	top: 300px;
 	background-color: transparent;
 	border-color: #fff;
 	border-radius: 5px;
@@ -37,7 +37,7 @@ a:hover{
 .btn:hover{
 	width: 100%;
 	position: relative;
-	top: 350px;
+	top: 300px;
 	background-color: transparent;
 	border-color: #fff;
 	border-radius: 5px;
