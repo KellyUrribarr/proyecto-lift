@@ -23,7 +23,7 @@ form .form-inline{
 
 .bt{
 	border: 1px;
-	padding: 2% 0%;
+	padding: 3% 0%;
 	color: #000;
 	background-color: #fff;
 	text-align: center;
@@ -40,5 +40,19 @@ form .form-inline{
 	padding: 0px 5px;
 	color:#fff;
 	font-size: 20px;
+}
+
+h1 button{
+	background: transparent;
+	border: transparent;
+	padding: 0% 12%;
+	color: #DBDBDB;
+}
+
+h1 button:hover{
+	background: transparent;
+	border: transparent;
+	padding: 0% 12%;
+	color: #DBDBDB;
 }
 
