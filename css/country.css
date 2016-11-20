@@ -45,14 +45,14 @@ form .form-inline{
 h4 button{
 	background: transparent;
 	border: transparent;
-	padding: 0% 12%;
+	padding: 0% 0%;
 	color: #DBDBDB;
 }
 
 h4 button:hover{
 	background: transparent;
 	border: transparent;
-	padding: 0% 12%;
+	padding: 0% 0%;
 	color: #DBDBDB;
 }
 
