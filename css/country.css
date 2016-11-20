@@ -42,18 +42,26 @@ form .form-inline{
 	font-size: 20px;
 }
 
-h1 button{
+h4 button{
 	background: transparent;
 	border: transparent;
 	padding: 0% 12%;
 	color: #DBDBDB;
-	font-size: 20px;
 }
 
-h1 button:hover{
+h4 button:hover{
 	background: transparent;
 	border: transparent;
 	padding: 0% 12%;
 	color: #DBDBDB;
+}
+
+.form-inline{
+	padding-top: 15px;
+	padding-bottom: 6px;
+}
+
+.nombres{
+	display: block;
 }
 
