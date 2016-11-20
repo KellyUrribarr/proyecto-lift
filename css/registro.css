@@ -45,7 +45,7 @@ form .form-inline{
 h1 button{
 	background: transparent;
 	border: transparent;
-	padding: 0% 12%;
+	padding: 0% 0%;
 	color: #DBDBDB;
 	font-size: 20px;
 }
@@ -53,7 +53,7 @@ h1 button{
 h1 button:hover{
 	background: transparent;
 	border: transparent;
-	padding: 0% 12%;
+	padding: 0% 10%;
 	color: #DBDBDB;
 }
 
