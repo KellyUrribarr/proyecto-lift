@@ -15,8 +15,15 @@ form .form-inline{
 }
 
 .btn-nex{
-	background-color: #FB55FD;
-	padding: 20px 5px;
+	background: rgba(255,93,177,1);
+background: -moz-linear-gradient(left, rgba(255,93,177,1) 0%, rgba(239,1,124,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,93,177,1)), color-stop(100%, rgba(239,1,124,1)));
+background: -webkit-linear-gradient(left, rgba(255,93,177,1) 0%, rgba(239,1,124,1) 100%);
+background: -o-linear-gradient(left, rgba(255,93,177,1) 0%, rgba(239,1,124,1) 100%);
+background: -ms-linear-gradient(left, rgba(255,93,177,1) 0%, rgba(239,1,124,1) 100%);
+background: linear-gradient(to right, rgba(255,93,177,1) 0%, rgba(239,1,124,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff5db1', endColorstr='#ef017c', GradientType=1 );
+	padding: 14px 5px;
 	color:#fff;
 	font-size: 20px;
 }
@@ -26,6 +33,7 @@ form .form-inline{
 	padding: 3% 0%;
 	color: #000;
 	background-color: #fff;
+	border-color: #E5E5E5;
 	text-align: center;
 	border-style: solid;
 	border-top: none;
