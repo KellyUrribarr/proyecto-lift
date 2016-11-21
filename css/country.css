@@ -71,8 +71,7 @@ h4 button:hover{
 }
 
 .form-inline{
-	padding-top: 0px;
-	padding-bottom: 0px;
+	margin-top: 20px;
 	background: rgba(255,93,177,1);
 background: -moz-linear-gradient(left, rgba(255,93,177,1) 0%, rgba(239,1,124,1) 100%);
 background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,93,177,1)), color-stop(100%, rgba(239,1,124,1)));
@@ -85,4 +84,21 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff5db1', end
 
 .nombres{
 	display: block;
+}
+
+.fa-angle-left:before {
+    content: "\f104";
+    font-size: 38px;
+    position: relative;
+    top: 0px;
+    color: #909090;
+}
+
+.espacio{
+	padding-top: 26px;
+	color: #909090;
+}
+.baja{
+	position: relative;
+	top: 10px;
 }

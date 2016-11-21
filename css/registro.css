@@ -1,8 +1,8 @@
 .fa-angle-left:before {
     content: "\f104";
-    font-size: 49px;
+    font-size: 38px;
     position: relative;
-    top: -43px;
+    top: -35px;
     color: #909090;
 }
 
