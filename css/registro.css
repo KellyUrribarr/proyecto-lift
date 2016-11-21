@@ -2,7 +2,7 @@
     content: "\f104";
     font-size: 38px;
     position: relative;
-    top: -35px;
+    top: -18px;
     color: #909090;
 }
 
@@ -61,7 +61,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff5db1', end
 	font-size: 20px;
 }
 
-h1 button{
+h4 button{
 	background: transparent;
 	border: transparent;
 	padding: 0% 0%;
@@ -69,14 +69,19 @@ h1 button{
 	font-size: 20px;
 }
 
-h1 button:hover{
+h4 button:hover{
 	background: transparent;
 	border: transparent;
 	padding: 0% 0%;
 	color: #DBDBDB;
 }
-h1 span{
+h4 span{
 	color: #909090;
+}
+
+.baja{
+	position: relative;
+	top: 10px;
 }
 
 
