@@ -42,6 +42,11 @@ form .form-inline{
 	font-size: 20px;
 }
 
+#paises{
+	padding-left: 3%;
+	text-decoration: none;
+}
+
 h4 button{
 	background: transparent;
 	border: transparent;
@@ -56,9 +61,26 @@ h4 button:hover{
 	color: #DBDBDB;
 }
 
+.color_blanco{
+	color: #fff;
+}
+
+#listado{
+	list-style:none;
+	margin-left: -13%;
+}
+
 .form-inline{
-	padding-top: 15px;
-	padding-bottom: 6px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	background: rgba(255,93,177,1);
+background: -moz-linear-gradient(left, rgba(255,93,177,1) 0%, rgba(239,1,124,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,93,177,1)), color-stop(100%, rgba(239,1,124,1)));
+background: -webkit-linear-gradient(left, rgba(255,93,177,1) 0%, rgba(239,1,124,1) 100%);
+background: -o-linear-gradient(left, rgba(255,93,177,1) 0%, rgba(239,1,124,1) 100%);
+background: -ms-linear-gradient(left, rgba(255,93,177,1) 0%, rgba(239,1,124,1) 100%);
+background: linear-gradient(to right, rgba(255,93,177,1) 0%, rgba(239,1,124,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff5db1', endColorstr='#ef017c', GradientType=1 );
 }
 
 .nombres{
