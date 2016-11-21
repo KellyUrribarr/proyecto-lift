@@ -1,5 +1,9 @@
-.fa-sort-desc{
-	padding-left: 5px;
+.fa-angle-left:before {
+    content: "\f104";
+    font-size: 49px;
+    position: relative;
+    top: -43px;
+    color: #909090;
 }
 
 .vene{
@@ -32,10 +36,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff5db1', end
 	font-size: 20px;
 }
 
+.icon-backspace{
+	font-size: 26px;
+}
 .bt{
 	border: 1px;
 	padding: 3% 0%;
-	color: #000;
+	color: #909090;
 	background-color: #fff;
 	border-color: #E5E5E5;
 	text-align: center;
@@ -68,4 +75,8 @@ h1 button:hover{
 	padding: 0% 0%;
 	color: #DBDBDB;
 }
+h1 span{
+	color: #909090;
+}
+
 
