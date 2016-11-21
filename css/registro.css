@@ -37,7 +37,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff5db1', end
 }
 
 .icon-backspace{
-	font-size: 26px;
+	font-size: 16px;
 }
 .bt{
 	border: 1px;
@@ -52,6 +52,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff5db1', end
     position: relative;
     left: 2%;
     margin-bottom: 0%;
+    font-size: 14px;
 }
 
 .btn-nada{
