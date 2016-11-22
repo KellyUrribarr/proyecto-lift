@@ -85,4 +85,121 @@ h4 span{
 	top: 10px;
 }
 
+/*----------------------------*/
+.vene{
+	width: 20px;
+}
+
+form .form-inline{
+	width: 100%;
+}
+
+#exampleInputAmount, .form-group, .input-group, .form-control{
+	width: 100%;
+}
+
+.parrafo{
+	padding: 10px;
+}
+
+.btn-nex{
+	background-color: #FB55FD;
+	padding: 20px 5px;
+	color:#fff;
+	font-size: 20px;
+}
+
+.bt{
+	border: 1px;
+	padding: 3% 0%;
+	color: #000;
+	background-color: #fff;
+	text-align: center;
+	border-style: solid;
+	border-top: none;
+    width: 32%;
+    position: relative;
+    left: 2%;
+    margin-bottom: 0%;
+}
+
+.btn-nada{
+	background-color: #fff;
+	padding: 0px 5px;
+	color:#fff;
+	font-size: 20px;
+}
+
+#paises{
+	padding-left: 3%;
+	text-decoration: none;
+}
+
+h4 button{
+	background: transparent;
+	border: transparent;
+	padding: 0% 0%;
+	color: #DBDBDB;
+}
+
+h4 button:hover{
+	background: transparent;
+	border: transparent;
+	padding: 0% 0%;
+	color: #DBDBDB;
+}
+
+.color_blanco{
+	color: #fff;
+}
+
+#listado{
+	list-style:none;
+	margin-left: -13%;
+}
+
+.form-inline{
+	margin-top: 20px;
+	
+}
+
+.forma{
+	margin-top: 20px;
+	background: rgba(255,93,177,1);
+background: -moz-linear-gradient(left, rgba(255,93,177,1) 0%, rgba(239,1,124,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,93,177,1)), color-stop(100%, rgba(239,1,124,1)));
+background: -webkit-linear-gradient(left, rgba(255,93,177,1) 0%, rgba(239,1,124,1) 100%);
+background: -o-linear-gradient(left, rgba(255,93,177,1) 0%, rgba(239,1,124,1) 100%);
+background: -ms-linear-gradient(left, rgba(255,93,177,1) 0%, rgba(239,1,124,1) 100%);
+background: linear-gradient(to right, rgba(255,93,177,1) 0%, rgba(239,1,124,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff5db1', endColorstr='#ef017c', GradientType=1 );
+}
+
+.nombres{
+	display: block;
+}
+
+img {
+    vertical-align: middle;
+    width: 30px;
+}
+
+
+
+.fa-angle-left:before {
+    content: "\f104";
+    font-size: 38px;
+    position: relative;
+    top: 0px;
+    color: #909090;
+}
+
+.espacio{
+	padding-top: 26px;
+	color: #909090;
+}
+.baja{
+	position: relative;
+	top: 10px;
+}
 
