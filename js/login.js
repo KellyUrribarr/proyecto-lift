@@ -32,6 +32,8 @@ $(document).ready(function(){
     $('#cambio').attr('src', "32/AU.png");
     //$('input, .form-control').text('+345');
     $('input').attr('placeholder', "+4465");
+     $('#ocultar').toggle();
+    
    
    });
 });
