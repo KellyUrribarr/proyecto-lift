@@ -28,8 +28,10 @@ $(document).ready(function(){
 //-------------------
 $(document).ready(function(){ 
    $('#cambiar_australia').on('click',function(){
-      //$('#ocultar').toggle();
-      //$('#cambio').prepend('<img id="foto" src="32/GT.png" />')
-
+    var src = '32/GT.png';
+    $('#cambio').attr('src', "32/AU.png");
+    //$('input, .form-control').text('+345');
+    $('input').attr('placeholder', "+4465");
+   
    });
 });
