@@ -35,7 +35,7 @@
             <div class="input-group">
               <div class="input-group-addon">
               <a id="enlazar" href="#">
-                <img src="img/ven.png">
+                <img id="cambio" src="img/ven.png">
                 <i class="fa fa-sort-desc" aria-hidden="true"></i>
               </a>
               </div>
@@ -70,7 +70,8 @@
 
 
 <!--COUNTRY-->
-    <div class="row">
+<div id="ocultar">
+    <div class="row ">
       <div class="col-xs-12 col-md-4 col-lg-4"></div>  <div class=" col-xs-12 col-md-4 col-lg-4">
         <h4 class="text-center baja">
           <span class=" espacio">Select Country</span> 
@@ -95,11 +96,12 @@
         <ul id="listado">
 
       
-        <li>
-        <a href="#"><span><img src="32/AU.png"><span id="paises">Australia</span></span></a>
+        <li id="cambiar_australia">
+        <a href="#"><span><img id="foto" src="32/AU.png"><span id="paises">Australia</span></span></a>
         </li>
 
-        <li>
+
+        <li id="pai">
           <a href="#"><span><img src="32/DE.png"><span id="paises">Alemania</span></span></a>
         </li>
         <li>
@@ -126,6 +128,8 @@
     </div>
   </div>
 
+  </div>
+
 
 	
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -135,3 +139,9 @@
    <script type="text/javascript" src="js/login.js"></script>
 </body>
 </html>
+
+
+
+
+
+

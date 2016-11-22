@@ -14,4 +14,22 @@ $(document).on('ready', function(){
 
 //--------------------------------------------------
 
- 
+$(document).ready(function(){ 
+      $('#ocultar').toggle();
+   });
+//------------------------------------
+$(document).ready(function(){ 
+   $('#enlazar').on('click',function(){
+      $('#ocultar').toggle();
+     // $('#cambio').prepend('<img id="foto" src="32/GT.png" />')
+
+   });
+});
+//-------------------
+$(document).ready(function(){ 
+   $('#cambiar_australia').on('click',function(){
+      //$('#ocultar').toggle();
+      //$('#cambio').prepend('<img id="foto" src="32/GT.png" />')
+
+   });
+});
