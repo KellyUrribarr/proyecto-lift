@@ -20,6 +20,7 @@ $(document).ready(function(){
 //------------------------------------
 $(document).ready(function(){ 
    $('#enlazar').on('click',function(){
+      //$('#desaparece').toggle();
       $('#ocultar').toggle();
      // $('#cambio').prepend('<img id="foto" src="32/GT.png" />')
 
@@ -32,8 +33,7 @@ $(document).ready(function(){
     $('#cambio').attr('src', "32/AU.png");
     $('input').attr('placeholder', "+61");
      $('#ocultar').toggle();
-
-   });
+   });  
 });
 
 //------------------ BANDERA ALEMANIA
