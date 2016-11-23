@@ -20,7 +20,7 @@ $(document).ready(function(){
 //------------------------------------
 $(document).ready(function(){ 
    $('#enlazar').on('click',function(){
-      //$('#desaparece').toggle();
+      $('#desaparece').toggle();
       $('#ocultar').toggle();
       //$('#cambio').prepend('<img id="foto" src="32/GT.png" />')
 
@@ -48,6 +48,7 @@ $(document).ready(function(){
 //------------------ BANDERA AUSTRALIA
 $(document).ready(function(){ 
    $('#cambiar_australia').on('click',function(){
+    $('#desaparece').toggle();
     var src = '32/GT.png';
     $('#cambio').attr('src', "32/AU.png");
     $('input').attr('placeholder', "+61");
@@ -58,6 +59,7 @@ $(document).ready(function(){
 //------------------ BANDERA ALEMANIA
 $(document).ready(function(){ 
    $('#cambiar_alemania').on('click',function(){
+     $('#desaparece').toggle();
     var src = '32/GT.png';
     $('#cambio').attr('src', "32/DE.png");
     $('input').attr('placeholder', "+49");
@@ -69,6 +71,7 @@ $(document).ready(function(){
 //------------------ BANDERA ARGENTINA
 $(document).ready(function(){ 
    $('#cambiar_argentina').on('click',function(){
+     $('#desaparece').toggle();
     var src = '32/GT.png';
     $('#cambio').attr('src', "32/GT.png");
     $('input').attr('placeholder', "+54");
@@ -80,6 +83,7 @@ $(document).ready(function(){
 //------------------ BANDERA CANADA
 $(document).ready(function(){ 
    $('#cambiar_canada').on('click',function(){
+     $('#desaparece').toggle();
     var src = '32/GT.png';
     $('#cambio').attr('src', "32/CA.png");
     $('input').attr('placeholder', "+1");
@@ -92,6 +96,7 @@ $(document).ready(function(){
 //------------------ BANDERA COLOMBIA
 $(document).ready(function(){ 
    $('#cambiar_colombia').on('click',function(){
+     $('#desaparece').toggle();
     var src = '32/GT.png';
     $('#cambio').attr('src', "32/CO.png");
     $('input').attr('placeholder', "+67");
@@ -104,6 +109,7 @@ $(document).ready(function(){
 //------------------ BANDERA CHILE
 $(document).ready(function(){ 
    $('#cambiar_chile').on('click',function(){
+     $('#desaparece').toggle();
     var src = '32/GT.png';
     $('#cambio').attr('src', "32/CL.png");
     $('input').attr('placeholder', "+56");
@@ -116,6 +122,7 @@ $(document).ready(function(){
 //------------------ BANDERA URUGUAY
 $(document).ready(function(){ 
    $('#cambiar_uruguay').on('click',function(){
+     $('#desaparece').toggle();
     var src = '32/GT.png';
     $('#cambio').attr('src', "32/UY.png");
     $('input').attr('placeholder', "+598");
@@ -128,6 +135,7 @@ $(document).ready(function(){
 //------------------ BANDERA VENEZUELA
 $(document).ready(function(){ 
    $('#cambiar_venezuela').on('click',function(){
+     $('#desaparece').toggle();
     var src = '32/GT.png';
     $('#cambio').attr('src', "32/VE.png");
     $('input').attr('placeholder', "+58");
