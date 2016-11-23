@@ -1,3 +1,4 @@
+/*
 .fa-angle-left:before {
     content: "\f104";
     font-size: 38px;
@@ -85,7 +86,6 @@ h4 span{
 	top: 10px;
 }
 
-/*----------------------------*/
 .vene{
 	width: 20px;
 }
@@ -201,4 +201,163 @@ img {
 	position: relative;
 	top: 10px;
 }
+*/
+
+
+.foto-perfil{
+	 width: 150px;
+	 height: 150px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background: #5cb85c;
+     padding: 5px;
+     position: relative;
+     left: 32%;
+
+}
+#llave{
+	width: 100%;
+	background-color: transparent;
+	border-color: #909090;
+	padding: 10px;
+	border-left: transparent;
+	border-right: transparent;
+	color: #909090;
+}
+
+#llave:hover{
+	width: 100%;
+	background-color: transparent;
+	border-color: #909090;
+	padding: 10px;
+	border-left: transparent;
+	border-right: transparent;
+	color:  #E41997;
+
+}
+
+.fa-key, .fa-gift, .fa-undo, .fa-credit-card, .fa-question, .fa-cogs{
+	padding-right: 15px;
+	font-size: 21px;
+}
+
+.fa-key:hover, .fa-gift:hover, .fa-undo:hover, .fa-credit-card:hover, .fa-question:hover, .fa-cogs:hover{
+	padding-right: 15px;
+	font-size: 21px;
+	color:  #E41997;
+}
+
+#bonton_free{
+	width: 100%;
+	background-color: transparent;
+	border-color: #909090;
+	padding: 10px;
+	border-left: transparent;
+	border-right: transparent;
+	border-top: transparent;
+	color: #909090;
+}
+
+#bonton_free:hover{
+	width: 100%;
+	background-color: transparent;
+	border-color: #909090;
+	padding: 10px;
+	border-left: transparent;
+	border-right: transparent;
+	border-top: transparent;
+	color:  #E41997;
+}
+
+#bonton_ride{
+	width: 100%;
+	background-color: transparent;
+	border-color: #909090;
+	padding: 10px;
+	border-left: transparent;
+	border-right: transparent;
+	border-top: transparent;
+	color: #909090;
+}
+
+#bonton_ride:hover{
+	width: 100%;
+	background-color: transparent;
+	border-color: #909090;
+	padding: 10px;
+	border-left: transparent;
+	border-right: transparent;
+	border-top: transparent;
+	color:  #E41997;
+}
+#bonton_pay{
+	width: 100%;
+	background-color: transparent;
+	border-color: #909090;
+	padding: 10px;
+	border-left: transparent;
+	border-right: transparent;
+	border-top: transparent;
+	color: #909090;
+}
+
+#bonton_pay:hover{
+	width: 100%;
+	background-color: transparent;
+	border-color: #909090;
+	padding: 10px;
+	border-left: transparent;
+	border-right: transparent;
+	border-top: transparent;
+	color:  #E41997;
+}
+
+#boton_help{
+	width: 100%;
+	background-color: transparent;
+	border-color: #909090;
+	padding: 10px;
+	border-left: transparent;
+	border-right: transparent;
+	border-top: transparent;
+	color: #909090;
+}
+
+#boton_help:hover{
+	width: 100%;
+	background-color: transparent;
+	border-color: #909090;
+	padding: 10px;
+	border-left: transparent;
+	border-right: transparent;
+	border-top: transparent;
+	color:  #E41997;
+}
+
+#boton_seguridad{
+	width: 100%;
+	background-color: transparent;
+	border-color: #909090;
+	padding: 10px;
+	border-left: transparent;
+	border-right: transparent;
+	border-top: transparent;
+	color: #909090;
+}
+
+#boton_seguridad:hover{
+	width: 100%;
+	background-color: transparent;
+	border-color: #909090;
+	padding: 10px;
+	border-left: transparent;
+	border-right: transparent;
+	border-top: transparent;
+	color:  #E41997;
+}
+
+
+
+
 
