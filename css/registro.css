@@ -401,10 +401,14 @@ img {
     color: #fff;
 }
 
-.edit{
+#file-input{
 	position: relative;
 	left: 73%;
 	top: 35px;
+}
+
+#imgSalida{
+	width: 100%;
 }
 
 

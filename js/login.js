@@ -1,4 +1,4 @@
-$(document).on('ready', function(){
+/*$(document).on('ready', function(){
   $('#listado li').on('click', function (){ // listado mi lista de origen (listado)
     $(this).css('background', 'white'); // dandole color
   });
@@ -27,7 +27,6 @@ $(document).ready(function(){
    });
 });
 
-
 /*----------------borrar
 $(document).ready(function(){ 
    $('#cambiar_australia').on('click',function(){
@@ -43,7 +42,7 @@ $(document).ready(function(){
    });
 });
 //---
-*/
+
 
 //------------------ BANDERA AUSTRALIA
 $(document).ready(function(){ 
@@ -143,6 +142,44 @@ $(document).ready(function(){
 
    });
 });
+*/
+
+//-----------------
+
+$(document).ready(function(){ 
+   $('#file-input').on('click',function(){
+     $('.foto_usuario').toggle();
+
+   });
+});
+
+$(window).load(function(){
+
+ $(function() {
+  $('#file-input').change(function(e) {
+      addImage(e); 
+     });
+
+     function addImage(e){
+      var file = e.target.files[0],
+      imageType = /image.*/;
+    
+      if (!file.type.match(imageType))
+       return;
+  
+      var reader = new FileReader();
+      reader.onload = fileOnload;
+      reader.readAsDataURL(file);
+     }
+  
+     function fileOnload(e) {
+      var result=e.target.result;
+      $('#imgSalida').attr("src",result);
+     }
+    });
+  });
+
+
 
 
 
