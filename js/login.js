@@ -21,15 +21,26 @@ $(document).ready(function(){
 $(document).ready(function(){ 
    $('#enlazar').on('click',function(){
       $('#ocultar').toggle();
-     // $('#cambio').prepend('<img id="foto" src="32/GT.png" />')
-
-   });
-});
-//-------------------
-$(document).ready(function(){ 
-   $('#cambiar_australia').on('click',function(){
-      //$('#ocultar').toggle();
       //$('#cambio').prepend('<img id="foto" src="32/GT.png" />')
 
    });
 });
+//----------------
+$(document).ready(function(){ 
+   $('#cambiar_australia').on('click',function(){
+      $('#cambiar_australia').val();
+      //$('#cambio').toggle();
+      $("#cambio").click(function(){
+		$('.ocultar').show(('<img id="foto" src="32/GT.png" />'),function() {
+                alert ('imagen mostrada!');
+		});
+ 	});
+      //$('#cambio').append('<img id="foto" src="32/GT.png" />')
+
+   });
+});
+//---
+
+
+
+
