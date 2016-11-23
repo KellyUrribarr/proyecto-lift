@@ -201,21 +201,19 @@ img {
 	position: relative;
 	top: 10px;
 }
-*/
+
 
 
 .foto-perfil{
 	 width: 150px;
 	 height: 150px;
-     -moz-border-radius: 50%;
-     -webkit-border-radius: 50%;
-     border-radius: 50%;
-     background: #5cb85c;
-     padding: 5px;
      position: relative;
-     left: 32%;
-
+     left: 31%;
+     border-radius: 50%;
+     border: #000 solid 3px;
+     padding: 5px;
 }
+
 #llave{
 	width: 100%;
 	background-color: transparent;
@@ -237,12 +235,12 @@ img {
 
 }
 
-.fa-key, .fa-gift, .fa-undo, .fa-credit-card, .fa-question, .fa-cogs{
+.fa-key, .fa-gift, .fa-undo, .fa-credit-card, .fa-question, .fa-cogs, .fa-car{
 	padding-right: 15px;
 	font-size: 21px;
 }
 
-.fa-key:hover, .fa-gift:hover, .fa-undo:hover, .fa-credit-card:hover, .fa-question:hover, .fa-cogs:hover{
+.fa-key:hover, .fa-gift:hover, .fa-undo:hover, .fa-credit-card:hover, .fa-question:hover, .fa-cogs:hover, .fa-car:hover{
 	padding-right: 15px;
 	font-size: 21px;
 	color:  #E41997;
@@ -357,6 +355,38 @@ img {
 	color:  #E41997;
 }
 
+#boton_conducir{
+	width: 100%;
+	background-color: transparent;
+	border-color: #909090;
+	padding: 10px;
+	border-left: transparent;
+	border-right: transparent;
+	border-top: transparent;
+	color:  #909090;
+}
+
+#boton_conducir:hover{
+	width: 100%;
+	background-color: transparent;
+	border-color: #909090;
+	padding: 10px;
+	border-left: transparent;
+	border-right: transparent;
+	border-top: transparent;
+	color:  #E41997;
+}
+
+*/
+.foto_usuario{
+	width: 100%;
+}
+
+#ver_border{
+	background:#F3F2F3;
+	border-radius: 5px;
+	padding: 15px;
+}
 
 
 
