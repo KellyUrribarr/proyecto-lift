@@ -388,6 +388,24 @@ img {
 	padding: 15px;
 }
 
+.fa-home, .fa-music, .fa-user{
+	font-size: 23px;
+	padding-right: 15px;
+}
+
+.fa-ellipsis-v{
+	position: relative;
+	top: 33px;
+    left: 5%;
+    font-size: 20px;
+    color: #fff;
+}
+
+.edit{
+	position: relative;
+	left: 73%;
+	top: 35px;
+}
 
 
 
