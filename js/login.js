@@ -146,12 +146,17 @@ $(document).ready(function(){
 
 //-----------------
 
-$(document).ready(function(){ 
-   $('#file-input').on('click',function(){
-     $('.foto_usuario').toggle();
+//$(document).ready(function(){ 
+   //$('#file-input').on('click',function(){
+    // $('.foto_usuario').toggle();
 
-   });
-});
+  // });
+//});
+
+$("#file-input").on( "click", function() {
+      $('.foto_usuario').hide(); //oculto mediante id
+    });
+ 
 
 $(window).load(function(){
 
