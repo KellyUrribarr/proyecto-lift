@@ -420,6 +420,7 @@ img#imgSalida{
  .union{
  	position: relative;
  	top: 65px;
+ 	z-index: 8;
  }
 
 
