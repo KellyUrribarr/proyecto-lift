@@ -395,7 +395,7 @@ img {
 
 .fa-ellipsis-v{
 	position: relative;
-	top: 33px;
+	top: 88px;
     left: 5%;
     font-size: 20px;
     color: #fff;
@@ -403,13 +403,20 @@ img {
 
 #file-input{
 	position: relative;
-	left: 73%;
-	top: 35px;
+	top: 65px;
+    left: 73%;
 }
 
 #imgSalida{
 	width: 100%;
 }
 
+input[type=file]#file-input{
+  color: transparent;
+}
+
+img#imgSalida{
+	color: transparent;
+}
 
 
