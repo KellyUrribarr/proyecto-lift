@@ -1,4 +1,4 @@
-/*
+
 .fa-angle-left:before {
     content: "\f104";
     font-size: 38px;
@@ -377,7 +377,7 @@ img {
 	color:  #E41997;
 }
 
-*/
+
 .foto_usuario{
 	width: 100%;
 }
@@ -396,7 +396,7 @@ img {
 .fa-ellipsis-v{
 	position: relative;
 	top: 88px;
-    left: 5%;
+    left: 90%;
     font-size: 20px;
     color: #fff;
 }
@@ -404,7 +404,7 @@ img {
 #file-input{
 	position: relative;
 	top: 65px;
-    left: 73%;
+	left: 7%;
 }
 
 #imgSalida{
