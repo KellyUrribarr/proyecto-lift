@@ -393,19 +393,17 @@ img {
 	padding-right: 15px;
 }
 
+
 .fa-ellipsis-v{
-	position: relative;
-	top: 88px;
-    left: 90%;
     font-size: 20px;
     color: #fff;
+    float: right;
 }
 
 
 #file-input{
-	position: relative;
-	top: 100px;
-	left: 7%;
+	width: 43%;	
+	float: right;
 }
 
 #imgSalida{
@@ -419,5 +417,9 @@ input[type=file]#file-input{
 img#imgSalida{
 	color: transparent;
 }
+ .union{
+ 	position: relative;
+ 	top: 65px;
+ }
 
 
