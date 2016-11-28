@@ -249,21 +249,35 @@ $(document).ready(function (){
 
 //-----------------
 
+
+
+
+
+
+
+
+
 $(".ver_codigo").click(function(){
 
   var guardar = ('LAB-' +Math.round(Math.random() * (999 - 100) + 100 ));
   alert(guardar);
 
-  var value = $('ver_codigo').val();
-    if (localStorage.getItem('#codigo_seguridad') == value){
-      alert("muy bien aprendio a escribir") ;
-  }else{
-      alert("oh oh los zombis comieron tu cerebro");
-     
-    }
-
   });
+
+$('#siguiente').on('click',function(){
+
+    var value = $('ver_codigo').val();
+    if (localStorage.getItem('codigo_seguridad') == value){
+      alert("aceptado") ;
+    }else{
+      alert("enegado");
+    }
+});
+
+
  
+
+
 
 
 
