@@ -539,3 +539,11 @@ label{
 	position: absolute;
 	left: 21%;
 }
+
+#siguiente{
+	background-color: transparent;
+	padding: 0px 37%;
+    border-color: transparent;
+    color: #fff;
+    text-decoration: none;
+}
