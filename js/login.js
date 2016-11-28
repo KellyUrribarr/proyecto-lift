@@ -36,18 +36,19 @@ $(document).ready(function(){
      $('#ocultar').toggle();
    });  
 
-   var limite_numeros = document.getElementById("bandera"),
-    limite = 11;
+    var limite_numeros = $('#bandera');
+    var limite = 11;
  
-    limite_numeros.onkeypress = function(event){
-    var valor = limite_numeros.value.length; //obteniendo el largo de limite_numeros
-    if (valor == limite)
-    alert("Ya alcanzó el límite de caracteres");
- 
-    if (valor >= limite)
-    event.preventDefault(); //Cancela la acción del evento
-};
-
+    limite_numeros.on('keypress', function(ev){
+      var valor = limite_numeros.value.length; //obteniendo el largo de limite_numeros
+      if (valor == limite){
+        alert("Ya alcanzó el límite de caracteres");
+      }
+   
+      if (valor >= limite){
+        event.preventDefault(); //Cancela la acción del evento
+      }
+    });
 });
 
 //------------------ BANDERA ALEMANIA
@@ -62,17 +63,19 @@ $(document).ready(function(){
 
    });
 
-   var limite_numeros = document.getElementById("bandera"),
-    limite = 9;
+   var limite_numeros = $('#bandera');
+    var limite = 11;
  
-limite_numeros.onkeypress = function(event){
-  var valor = limite_numeros.value.length; //obteniendo el largo de limite_numeros
-  if (valor == limite)
-    alert("Ya alcanzó el límite de caracteres");
- 
-  if (valor >= limite)
-    event.preventDefault(); //Cancela la acción del evento
-};
+    limite_numeros.on('keypress', function(ev){
+      var valor = limite_numeros.value.length; //obteniendo el largo de limite_numeros
+      if (valor == limite){
+        alert("Ya alcanzó el límite de caracteres");
+      }
+   
+      if (valor >= limite){
+        event.preventDefault(); //Cancela la acción del evento
+      }
+    });
 });
 
 //------------------ BANDERA ARGENTINA
@@ -86,17 +89,19 @@ $(document).ready(function(){
      $('#ocultar').toggle();
    });
 
-   var limite_numeros = document.getElementById("bandera"),
-    limite = 11;
+   var limite_numeros = $('#bandera');
+    var limite = 11;
  
-limite_numeros.onkeypress = function(event){
-  var valor = limite_numeros.value.length; //obteniendo el largo de limite_numeros
-  if (valor == limite)
-    alert("Ya alcanzó el límite de caracteres");
- 
-  if (valor >= limite)
-    event.preventDefault(); //Cancela la acción del evento
-};
+    limite_numeros.on('keypress', function(ev){
+      var valor = limite_numeros.value.length; //obteniendo el largo de limite_numeros
+      if (valor == limite){
+        alert("Ya alcanzó el límite de caracteres");
+      }
+   
+      if (valor >= limite){
+        event.preventDefault(); //Cancela la acción del evento
+      }
+    });
 });
 
 //------------------ BANDERA CANADA
@@ -110,19 +115,20 @@ $(document).ready(function(){
      $('#ocultar').toggle();
    });
 
-   var limite_numeros = document.getElementById("bandera"),
-    limite = 10;
+   var limite_numeros = $('#bandera');
+    var limite = 11;
  
-limite_numeros.onkeypress = function(event){
-  var valor = limite_numeros.value.length; //obteniendo el largo de limite_numeros
-  if (valor == limite)
-    alert("Ya alcanzó el límite de caracteres");
- 
-  if (valor >= limite)
-    event.preventDefault(); //Cancela la acción del evento
-};
+    limite_numeros.on('keypress', function(ev){
+      var valor = limite_numeros.value.length; //obteniendo el largo de limite_numeros
+      if (valor == limite){
+        alert("Ya alcanzó el límite de caracteres");
+      }
+   
+      if (valor >= limite){
+        event.preventDefault(); //Cancela la acción del evento
+      }
+    });
 });
-
 
 //------------------ BANDERA COLOMBIA
 $(document).ready(function(){ 
@@ -137,16 +143,20 @@ $(document).ready(function(){
    var limite_numeros = document.getElementById("bandera"),
     limite = 10;
  
-limite_numeros.onkeypress = function(event){
-  var valor = limite_numeros.value.length; //obteniendo el largo de limite_numeros
-  if (valor == limite)
-    alert("Ya alcanzó el límite de caracteres");
+var limite_numeros = $('#bandera');
+    var limite = 11;
  
-  if (valor >= limite)
-    event.preventDefault(); //Cancela la acción del evento
-};
+    limite_numeros.on('keypress', function(ev){
+      var valor = limite_numeros.value.length; //obteniendo el largo de limite_numeros
+      if (valor == limite){
+        alert("Ya alcanzó el límite de caracteres");
+      }
+   
+      if (valor >= limite){
+        event.preventDefault(); //Cancela la acción del evento
+      }
+    });
 });
-
 
 //------------------ BANDERA CHILE
 $(document).ready(function(){ 
@@ -159,19 +169,20 @@ $(document).ready(function(){
      $('#ocultar').toggle();
    });
 
-   var limite_numeros = document.getElementById("bandera"),
-    limite = 8;
+   var limite_numeros = $('#bandera');
+    var limite = 11;
  
-limite_numeros.onkeypress = function(event){
-  var valor = limite_numeros.value.length; //obteniendo el largo de limite_numeros
-  if (valor == limite)
-    alert("Ya alcanzó el límite de caracteres");
- 
-  if (valor >= limite)
-    event.preventDefault(); //Cancela la acción del evento
-};
+    limite_numeros.on('keypress', function(ev){
+      var valor = limite_numeros.value.length; //obteniendo el largo de limite_numeros
+      if (valor == limite){
+        alert("Ya alcanzó el límite de caracteres");
+      }
+   
+      if (valor >= limite){
+        event.preventDefault(); //Cancela la acción del evento
+      }
+    });
 });
-
 
 //------------------ BANDERA URUGUAY
 $(document).ready(function(){ 
@@ -185,17 +196,19 @@ $(document).ready(function(){
 
    });
 
-   var limite_numeros = document.getElementById("bandera"),
-    limite = 8;
+   var limite_numeros = $('#bandera');
+    var limite = 11;
  
-limite_numeros.onkeypress = function(event){
-  var valor = limite_numeros.value.length; //obteniendo el largo de limite_numeros
-  if (valor == limite)
-    alert("Ya alcanzó el límite de caracteres");
- 
-  if (valor >= limite)
-    event.preventDefault(); //Cancela la acción del evento
-};
+    limite_numeros.on('keypress', function(ev){
+      var valor = limite_numeros.value.length; //obteniendo el largo de limite_numeros
+      if (valor == limite){
+        alert("Ya alcanzó el límite de caracteres");
+      }
+   
+      if (valor >= limite){
+        event.preventDefault(); //Cancela la acción del evento
+      }
+    });
 });
 
 
@@ -211,17 +224,19 @@ $(document).ready(function(){
 
    });
 
-   var limite_numeros = document.getElementById("bandera"),
-    limite = 13;
+   var limite_numeros = $('#bandera');
+    var limite = 11;
  
-limite_numeros.onkeypress = function(event){
-  var valor = limite_numeros.value.length; //obteniendo el largo de limite_numeros
-  if (valor == limite)
-    alert("Ya alcanzó el límite de caracteres");
- 
-  if (valor >= limite)
-    event.preventDefault(); //Cancela la acción del evento
-};
+    limite_numeros.on('keypress', function(ev){
+      var valor = limite_numeros.value.length; //obteniendo el largo de limite_numeros
+      if (valor == limite){
+        alert("Ya alcanzó el límite de caracteres");
+      }
+   
+      if (valor >= limite){
+        event.preventDefault(); //Cancela la acción del evento
+      }
+    });
 });
 
 //----------------VALIDACION
@@ -235,11 +250,22 @@ $(document).ready(function (){
 //-----------------
 
 $("#siguiente").click(function(){
-alert('LAB-' +Math.round(Math.random() * (999 - 100) + 100 ));
+  var guardar = ('LAB-' +Math.round(Math.random() * (999 - 100) + 100 ));
+  alert(guardar);
+
+ localStorage.setItem('key', 'value');
+ var value = localStorage.getItem('key');
+
 
 });
 
 //-----------
+
+//$(function () { $("input,select,textarea").not("[type=submit]").jqBootstrapValidation(); } );
+
+//----------
+
+
 
 
 
