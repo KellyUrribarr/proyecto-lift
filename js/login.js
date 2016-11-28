@@ -1,4 +1,4 @@
-/*$(document).on('ready', function(){
+$(document).on('ready', function(){
   $('#listado li').on('click', function (){ // listado mi lista de origen (listado)
     $(this).css('background', 'white'); // dandole color
   });
@@ -22,27 +22,8 @@ $(document).ready(function(){
    $('#enlazar').on('click',function(){
       $('#desaparece').toggle();
       $('#ocultar').toggle();
-      //$('#cambio').prepend('<img id="foto" src="32/GT.png" />')
-
    });
 });
-
-/*----------------borrar
-$(document).ready(function(){ 
-   $('#cambiar_australia').on('click',function(){
-      $('#cambiar_australia').val();
-      //$('#cambio').toggle();
-      $("#cambio").click(function(){
-		$('.ocultar').show(('<img id="foto" src="32/GT.png" />'),function() {
-                alert ('imagen mostrada!');
-		});
- 	});
-      //$('#cambio').append('<img id="foto" src="32/GT.png" />')
-
-   });
-});
-//---
-
 
 //------------------ BANDERA AUSTRALIA
 $(document).ready(function(){ 
@@ -142,52 +123,23 @@ $(document).ready(function(){
 
    });
 });
-*/
 
-//-----------------
+//----------------VALIDACION
 
-//$(document).ready(function(){ 
-   //$('#file-input').on('click',function(){
-    // $('.foto_usuario').toggle();
-
-  // });
-//});
-
-$("#file-input").on( "click", function() {
-      $('.foto_usuario').hide(); //oculto mediante id
-    });
+var limite_numeros = document.getElementById("bandera"),
+    limite = 6;
  
+limite_numeros.onkeypress = function(event){
+  var valor = limite_numeros.value.length; //obteniendo el largo de limite_numeros
+  if (valor == limite)
+    alert("Ya alcanzó el límite de caracteres");
+ 
+  if (valor >= limite)
+    event.preventDefault(); //Cancela la acción del evento
+};
 
-$(window).load(function(){
-
- $(function() {
-  $('#file-input').change(function(e) {
-      addImage(e); 
-     });
-
-     function addImage(e){
-      var file = e.target.files[0],
-      imageType = /image.*/;
-    
-      if (!file.type.match(imageType))
-       return;
-  
-      var reader = new FileReader();
-      reader.onload = fileOnload;
-      reader.readAsDataURL(file);
-     }
-  
-     function fileOnload(e) {
-      var result=e.target.result;
-      $('#imgSalida').attr("src",result);
-     }
+$(document).ready(function (){
+    $('#bandera').keyup(function(){
+       bandera.value = (bandera.value + '').replace(/[^0-9]/g, '');
     });
-  });
-
-
-
-
-
-
-
-
+ });
