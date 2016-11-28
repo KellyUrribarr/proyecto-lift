@@ -249,26 +249,10 @@ $(document).ready(function (){
 
 //-----------------
 
-$("#siguiente").click(function(){
-
-  var me_guarda = $('#tamaño');
+$(".ver_codigo").click(function(){
 
   var guardar = ('LAB-' +Math.round(Math.random() * (999 - 100) + 100 ));
   alert(guardar);
-
-localStorage['guardar'] = '';
-valor = localStorage['saludo'];
-
-
-
-
-
- //.setItem('key', 'value');
- //var value = localStorage.getItem('key');
-
- //var cadena = ""  + numero;
- //if numero == input.val
-
 
 });
 
