@@ -423,4 +423,12 @@ img#imgSalida{
  	z-index: 8;
  }
 
+.codigo{
+	background: transparent;
+	border-right: transparent;
+}
+
+.form-control{
+	border-left: transparent;
+}
 
