@@ -9,7 +9,7 @@
   <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="css/usuario.css">
+  <link rel="stylesheet" type="text/css" href="css/registro.css">
   
 </head>
 <body class="container-fluid">
@@ -32,17 +32,34 @@
 
     <div class="row">
       <div class="col-xs-12 col-md-4 col-lg-4"></div>
-       <form class="form-inline col-xs-12 col-md-4 col-lg-4">
-          <input type="text" class="form-control" id="exampleInputAmount" placeholder="First name">
+      <div class="col-xs-12 col-md-4 col-lg-4">
+        <form class="form-horizontal" novalidate>
+        <div class="control-group">
+          <div class="controls">
+            <input type="text" maxlength="10" name="some_field" />
+            <p class="help-block"></p>
+          </div>
+        </div>
       </form>
+      </div>
       <div class="col-xs-12 col-md-4 col-lg-4"></div>
     </div>
+
+
+
     <br>
     <div class="row">
       <div class="col-xs-12 col-md-4 col-lg-4"></div>
-       <form class="form-inline col-xs-12 col-md-4 col-lg-4">
-          <input type="text" class="form-control" id="exampleInputAmount" placeholder="Email">
+      <div class="col-xs-12 col-md-4 col-lg-4">
+        <form class="form-horizontal">
+        <div class="control-group">
+          <div class="controls">
+            <input type="email" />
+            <p class="help-block"></p>
+          </div>
+        </div>
       </form>
+      </div>
       <div class="col-xs-12 col-md-4 col-lg-4"></div>
     </div>
     <br>
@@ -51,7 +68,7 @@
       <div class="col-xs-12 col-md-4 col-lg-4"></div>
        <div class="col-xs-12 col-md-4 col-lg-4">
         <label>
-          <input type="checkbox"> I agree to Lyft's <a href="#"> Terms of Service</a>
+          <input class="largo" type="checkbox"> I agree to Lyft's <a href="#"> Terms of Service</a>
         </label>
       </div>
       <div class="col-xs-12 col-md-4 col-lg-4"></div>

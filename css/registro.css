@@ -432,3 +432,93 @@ img#imgSalida{
 	border-left: transparent;
 }
 
+input{
+	width: 100%;
+}
+
+.largo{
+	width: 5%;
+}
+
+.letras{
+	width: 8%;
+	margin-top: 10px;
+	border-radius: 10px;
+}
+.dif{
+	width: 12.5%;
+	margin-top: 10px;
+	border-radius: 10px;
+}
+
+.esp{
+	margin-top: 10px;
+	border-radius: 10px;
+}
+
+.vene{
+	width: 20px;
+}
+
+form .form-inline{
+	width: 100%;
+}
+
+#exampleInputAmount, .form-group, .input-group, .form-control{
+	width: 100%;
+}
+
+.parrafo{
+	padding: 10px;
+}
+
+.btn-nex{
+	background-color: #FB55FD;
+	padding: 20px 5px;
+	color:#fff;
+	font-size: 20px;
+}
+
+.bt{
+	border: 1px;
+	padding: 3% 0%;
+	color: #000;
+	background-color: #fff;
+	text-align: center;
+	border-style: solid;
+	border-top: none;
+    width: 32%;
+    position: relative;
+    left: 2%;
+    margin-bottom: 0%;
+}
+
+.btn-nada{
+	background-color: #fff;
+	padding: 0px 5px;
+	color:#fff;
+	font-size: 20px;
+}
+
+h1 button{
+	background: transparent;
+	border: transparent;
+	padding: 0% 0%;
+	color: #DBDBDB;
+	font-size: 20px;
+}
+
+h1 button:hover{
+	background: transparent;
+	border: transparent;
+	padding: 0% 0%;
+	color: #DBDBDB;
+}
+
+label{
+	display: inline-block;
+    width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+    font-size: 15px;
+}
