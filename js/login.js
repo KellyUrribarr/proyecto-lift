@@ -254,6 +254,24 @@ $(".ver_codigo").click(function(){
   var guardar = ('LAB-' +Math.round(Math.random() * (999 - 100) + 100 ));
   alert(guardar);
 
+var value = $('codigo_seguridad').val();
+ if (localStorage.getItem('codigo_seguridad') == value){
+ alert("muy bien aprendio a escribir") ;
+}else{
+ alert("oh oh los zombis comieron tu cerebro");
+}
+
+
+
+
+
+ //.setItem('key', 'value');
+ //var value = localStorage.getItem('key');
+
+ //var cadena = ""  + numero;
+ //if numero == input.val
+
+
 });
 
 //-----------
