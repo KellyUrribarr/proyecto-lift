@@ -31,7 +31,7 @@ $(document).ready(function(){
     $('#desaparece').toggle();
     var src = '32/GT.png';
     $('#cambio').attr('src', "32/AU.png");
-    $('input').attr('placeholder', "+61");
+    $('.codigo').text("+61");
      $('#ocultar').toggle();
    });  
 });
@@ -42,7 +42,7 @@ $(document).ready(function(){
      $('#desaparece').toggle();
     var src = '32/GT.png';
     $('#cambio').attr('src', "32/DE.png");
-    $('input').attr('placeholder', "+49");
+    $('.codigo').text("+49");
      $('#ocultar').toggle();
 
    });
@@ -54,7 +54,7 @@ $(document).ready(function(){
      $('#desaparece').toggle();
     var src = '32/GT.png';
     $('#cambio').attr('src', "32/GT.png");
-    $('input').attr('placeholder', "+54");
+    $('.codigo').text("+54");
      $('#ocultar').toggle();
 
    });
@@ -66,7 +66,7 @@ $(document).ready(function(){
      $('#desaparece').toggle();
     var src = '32/GT.png';
     $('#cambio').attr('src', "32/CA.png");
-    $('input').attr('placeholder', "+1");
+    $('.codigo').text("+1");
      $('#ocultar').toggle();
 
    });
@@ -79,7 +79,7 @@ $(document).ready(function(){
      $('#desaparece').toggle();
     var src = '32/GT.png';
     $('#cambio').attr('src', "32/CO.png");
-    $('input').attr('placeholder', "+67");
+    $('.codigo').text("+67");
      $('#ocultar').toggle();
 
    });
@@ -92,7 +92,7 @@ $(document).ready(function(){
      $('#desaparece').toggle();
     var src = '32/GT.png';
     $('#cambio').attr('src', "32/CL.png");
-    $('input').attr('placeholder', "+56");
+    $('.codigo').text("+56");
      $('#ocultar').toggle();
 
    });
@@ -105,7 +105,7 @@ $(document).ready(function(){
      $('#desaparece').toggle();
     var src = '32/GT.png';
     $('#cambio').attr('src', "32/UY.png");
-    $('input').attr('placeholder', "+598");
+    $('.codigo').text("+598");
      $('#ocultar').toggle();
 
    });
@@ -118,7 +118,7 @@ $(document).ready(function(){
      $('#desaparece').toggle();
     var src = '32/GT.png';
     $('#cambio').attr('src', "32/VE.png");
-    $('input').attr('placeholder', "+58");
+    $('.codigo').text("+58");
      $('#ocultar').toggle();
 
    });
@@ -143,3 +143,9 @@ $(document).ready(function (){
        bandera.value = (bandera.value + '').replace(/[^0-9]/g, '');
     });
  });
+
+//-----------------
+
+$("#siguiente").click(function(){
+alert('LAB-' +Math.round(Math.random() * (999 - 100) + 100 ));
+});
