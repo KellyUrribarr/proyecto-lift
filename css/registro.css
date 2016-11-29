@@ -535,7 +535,7 @@ label{
 	left: 21%;
 }
 
-#siguiente{
+#siguiente, #siguiente_uno{
 	background-color: transparent;
 	padding: 0px 37%;
     border-color: transparent;

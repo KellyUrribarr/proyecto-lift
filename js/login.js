@@ -250,13 +250,6 @@ $(document).ready(function (){
 //-----------------
 
 
-
-
-
-
-
-
-
 $(".ver_codigo").click(function(){
 
   var codigo = ('LAB-' +Math.round(Math.random() * (999 - 100) + 100 ));
@@ -277,10 +270,6 @@ $('#siguiente').on('click',function(){
       return false;
     }
 });
-
-
- 
-
 
 
 
