@@ -542,3 +542,15 @@ label{
     color: #fff;
     text-decoration: none;
 }
+
+.ver_codigo{
+	width: 100%;
+	background-color: transparent;
+    border-color: transparent;
+}
+
+#codigo_seguridad{
+	border-top: transparent;
+	border-left: transparent;
+	border-right: transparent;
+}
