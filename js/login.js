@@ -259,18 +259,22 @@ $(document).ready(function (){
 
 $(".ver_codigo").click(function(){
 
-  var guardar = ('LAB-' +Math.round(Math.random() * (999 - 100) + 100 ));
-  alert(guardar);
+  var codigo = ('LAB-' +Math.round(Math.random() * (999 - 100) + 100 ));
+  localStorage.setItem('codigo_seguridad', codigo);
+  alert('Su codigo es: ' + codigo);
 
-  });
+});
 
 $('#siguiente').on('click',function(){
 
-    var value = $('ver_codigo').val();
-    if (localStorage.getItem('codigo_seguridad') == value){
+    var value = $('#codigo_seguridad').val();
+    var codigo_guardado = localStorage.getItem('codigo_seguridad');
+
+    if (codigo_guardado == value){
       alert("aceptado") ;
     }else{
-      alert("enegado");
+      alert("denegado");
+      return false;
     }
 });
 
