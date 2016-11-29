@@ -33,22 +33,10 @@ $(document).ready(function(){
     $('#cambio').attr('src', "32/AU.png");
     $('input').attr('placeholder', "102056059");
     $('.codigo').text("+61");
+    $("#bandera").attr("maxlength", "11")
      $('#ocultar').toggle();
-   });  
 
-    var limite_numeros = $('#bandera');
-    var limite = 11;
- 
-    limite_numeros.on('keypress', function(ev){
-      var valor = limite_numeros.value.length; //obteniendo el largo de limite_numeros
-      if (valor == limite){
-        alert("Ya alcanzó el límite de caracteres");
-      }
-   
-      if (valor >= limite){
-        event.preventDefault(); //Cancela la acción del evento
-      }
-    });
+   });  
 });
 
 //------------------ BANDERA ALEMANIA
@@ -59,23 +47,11 @@ $(document).ready(function(){
     $('#cambio').attr('src', "32/DE.png");
      $('input').attr('placeholder', "902056065");
     $('.codigo').text("+49");
+    $("#bandera").attr("maxlength", "11")
      $('#ocultar').toggle();
-
    });
 
-   var limite_numeros = $('#bandera');
-    var limite = 11;
- 
-    limite_numeros.on('keypress', function(ev){
-      var valor = limite_numeros.value.length; //obteniendo el largo de limite_numeros
-      if (valor == limite){
-        alert("Ya alcanzó el límite de caracteres");
-      }
    
-      if (valor >= limite){
-        event.preventDefault(); //Cancela la acción del evento
-      }
-    });
 });
 
 //------------------ BANDERA ARGENTINA
@@ -86,22 +62,10 @@ $(document).ready(function(){
     $('#cambio').attr('src', "32/GT.png");
     $('input').attr('placeholder', "91112329384");
     $('.codigo').text("+54");
+    $("#bandera").attr("maxlength", "11")
      $('#ocultar').toggle();
    });
 
-   var limite_numeros = $('#bandera');
-    var limite = 11;
- 
-    limite_numeros.on('keypress', function(ev){
-      var valor = limite_numeros.value.length; //obteniendo el largo de limite_numeros
-      if (valor == limite){
-        alert("Ya alcanzó el límite de caracteres");
-      }
-   
-      if (valor >= limite){
-        event.preventDefault(); //Cancela la acción del evento
-      }
-    });
 });
 
 //------------------ BANDERA CANADA
@@ -112,22 +76,10 @@ $(document).ready(function(){
     $('#cambio').attr('src', "32/CA.png");
     $('input').attr('placeholder', "4168955137");
     $('.codigo').text("+1");
+    $("#bandera").attr("maxlength", "11")
      $('#ocultar').toggle();
    });
 
-   var limite_numeros = $('#bandera');
-    var limite = 11;
- 
-    limite_numeros.on('keypress', function(ev){
-      var valor = limite_numeros.value.length; //obteniendo el largo de limite_numeros
-      if (valor == limite){
-        alert("Ya alcanzó el límite de caracteres");
-      }
-   
-      if (valor >= limite){
-        event.preventDefault(); //Cancela la acción del evento
-      }
-    });
 });
 
 //------------------ BANDERA COLOMBIA
@@ -138,24 +90,10 @@ $(document).ready(function(){
     $('#cambio').attr('src', "32/CO.png");
     $('input').attr('placeholder', "3173372737");
     $('.codigo').text("+57");
+    $("#bandera").attr("maxlength", "10")
      $('#ocultar').toggle();
    });
-   var limite_numeros = document.getElementById("bandera"),
-    limite = 10;
- 
-var limite_numeros = $('#bandera');
-    var limite = 11;
- 
-    limite_numeros.on('keypress', function(ev){
-      var valor = limite_numeros.value.length; //obteniendo el largo de limite_numeros
-      if (valor == limite){
-        alert("Ya alcanzó el límite de caracteres");
-      }
-   
-      if (valor >= limite){
-        event.preventDefault(); //Cancela la acción del evento
-      }
-    });
+  
 });
 
 //------------------ BANDERA CHILE
@@ -166,22 +104,10 @@ $(document).ready(function(){
     $('#cambio').attr('src', "32/CL.png");
     $('input').attr('placeholder', "22045199");
     $('.codigo').text("+56");
+    $("#bandera").attr("maxlength", "11")
      $('#ocultar').toggle();
    });
 
-   var limite_numeros = $('#bandera');
-    var limite = 11;
- 
-    limite_numeros.on('keypress', function(ev){
-      var valor = limite_numeros.value.length; //obteniendo el largo de limite_numeros
-      if (valor == limite){
-        alert("Ya alcanzó el límite de caracteres");
-      }
-   
-      if (valor >= limite){
-        event.preventDefault(); //Cancela la acción del evento
-      }
-    });
 });
 
 //------------------ BANDERA URUGUAY
@@ -192,23 +118,12 @@ $(document).ready(function(){
     $('#cambio').attr('src', "32/UY.png");
     $('input').attr('placeholder', "22045199");
     $('.codigo').text("+598");
+    $("#bandera").attr("maxlength", "11")
      $('#ocultar').toggle();
 
    });
 
-   var limite_numeros = $('#bandera');
-    var limite = 11;
- 
-    limite_numeros.on('keypress', function(ev){
-      var valor = limite_numeros.value.length; //obteniendo el largo de limite_numeros
-      if (valor == limite){
-        alert("Ya alcanzó el límite de caracteres");
-      }
    
-      if (valor >= limite){
-        event.preventDefault(); //Cancela la acción del evento
-      }
-    });
 });
 
 
@@ -220,23 +135,12 @@ $(document).ready(function(){
     $('#cambio').attr('src', "32/VE.png");
     $('input').attr('placeholder', "02616230375");
     $('.codigo').text("+58");
+    $("#bandera").attr("maxlength", "11")
      $('#ocultar').toggle();
 
    });
 
-   var limite_numeros = $('#bandera');
-    var limite = 11;
- 
-    limite_numeros.on('keypress', function(ev){
-      var valor = limite_numeros.value.length; //obteniendo el largo de limite_numeros
-      if (valor == limite){
-        alert("Ya alcanzó el límite de caracteres");
-      }
    
-      if (valor >= limite){
-        event.preventDefault(); //Cancela la acción del evento
-      }
-    });
 });
 
 //----------------VALIDACION
@@ -270,6 +174,37 @@ $('#siguiente').on('click',function(){
       return false;
     }
 });
+
+
+$("#siguiente_uno").click(function(){
+      var numeros = "6";
+      var numero_telf = $("#bandera").val();
+      if (numero_telf == null || numero_telf.length==0) {
+        alert("Ingrese un número telefonico")
+        return false;
+      }else{
+        var ingrese_numero = $("#bandera").val();
+          if($("#bandera").attr("maxlength") == ingrese_numero.length){
+            $("#siguiente_uno").click(function(){
+              window.location.href="codigo.html";
+            });
+          } else{
+            alert ("Ingresa tu numero telefonico")
+            return false;
+          }
+      }
+
+
+
+
+
+  });
+
+
+
+
+
+
 
 
 
