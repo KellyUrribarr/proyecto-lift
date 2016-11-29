@@ -208,26 +208,15 @@ $("#siguiente_uno").click(function(){
   });
 
 $("#siguiente_uno").on( "click", function() {
-      var siguiente_codigo = $("#bandera").val();
+      var ingresar = $("#espacio").val();
+      var ingresar_correo = $("#espacios_uno").val();
 
+      if (ingresar == null || ingresar_correo.length==0) {
+        return false;
+      }else{
+        return true;
+      }
     });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
