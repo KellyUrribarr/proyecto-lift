@@ -554,3 +554,35 @@ label{
 	border-left: transparent;
 	border-right: transparent;
 }
+
+.fa-user-plus:before {
+    content: "\f234";
+    position: relative;
+    bottom: -26px;
+    left: 54%;
+    color: #909090;
+    font-size: 16px;
+}
+
+.fa-envelope:before {
+    content: "\f0e0";
+    position: relative;
+    bottom: 32px;
+    left: 52%;
+    color: #909090;
+    font-size: 17px;
+}
+
+#espacios{
+	width: 100%;
+	padding-left: 16%;
+	padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+#espacios_uno{
+	width: 100%;
+	padding-left: 8%;
+	padding-top: 2%;
+    padding-bottom: 2%;
+}
