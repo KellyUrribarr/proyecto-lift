@@ -177,14 +177,25 @@ $('#siguiente').on('click',function(){
 
 
 $("#siguiente_uno").click(function(){
-      var numeros = "6";
       var numero_telf = $("#bandera").val();
+      var obtener_codigo_telef = $("#obtener_telf").val;
+      var prefijo_codigo = $(".codigo").text();
+      localStorage.setItem("valor_telefonico", numero_telf);
+     
+
       if (numero_telf == null || numero_telf.length==0) {
-        alert("Ingrese un número telefonico")
+        alert("Ingrese todo el número telefonico")
         return false;
-      }else{
+      }
+
+
+
+
+
+      else{
         var ingrese_numero = $("#bandera").val();
           if($("#bandera").attr("maxlength") == ingrese_numero.length){
+             $("#obtener_telf").append("Tu número de telefono es:" + " " + prefijo_codigo + " " + localStorage.getItem("valor_telefonico")); 
             $("#siguiente_uno").click(function(){
               window.location.href="codigo.html";
             });
@@ -194,11 +205,22 @@ $("#siguiente_uno").click(function(){
           }
       }
 
-
-
-
-
   });
+
+$("#siguiente_uno").on( "click", function() {
+      var siguiente_codigo = $("#bandera").val();
+
+    });
+
+
+
+
+
+
+
+
+
+
 
 
 
