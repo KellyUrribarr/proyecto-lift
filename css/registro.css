@@ -253,12 +253,12 @@ img {
 	color:  #E41997;
 }
 
-.fa-key, .fa-undo, .fa-credit-card, .fa-question, .fa-cogs, .fa-car{
+.fa-key, .fa-gift, .fa-undo, .fa-credit-card, .fa-question, .fa-cogs, .fa-car{
 	padding-right: 15px;
 	font-size: 21px;
 }
 
-.fa-key:hover, .fa-undo:hover, .fa-credit-card:hover, .fa-question:hover, .fa-cogs:hover, .fa-car:hover{
+.fa-key:hover, .fa-gift:hover,  .fa-undo:hover, .fa-credit-card:hover, .fa-question:hover, .fa-cogs:hover, .fa-car:hover{
 	padding-right: 15px;
 	font-size: 21px;
 	color:  #E41997;
@@ -668,10 +668,9 @@ img #img_logo_mapa{
 .fa-gift:before {
     content: "\f06b";
     position: absolute;
-    top: 24px;
-    left: 37%;
+    top: 9px;
+    left: 5%;
     z-index: 8;
-    font-size: 92px;
+    font-size: 25px;
 }
-
 

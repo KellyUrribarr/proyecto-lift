@@ -1,14 +1,15 @@
-.miniPerfil{
+.miniPerfil {
     position: absolute;
-   left: 0px;
-   top: 0px;
-   z-index: 1;
-   width: 50px;
-   border-radius: 50%;
-   padding: 5px;
-   border: 1px solid black;
-   margin-top: 10px;
-   margin-left: 10px;
+    left: 5%;
+    top: 0px;
+    z-index: 1;
+    width: 60px;
+    border-radius: 50%;
+    padding: 5px;
+    border: 1px solid #f72cd7;
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 60px;
 }
 
 * {
@@ -123,9 +124,10 @@ a:hover{
    width: 100px;
    border-radius: 50%;
    padding: 5px;
-   border: 1px solid black;
+   border: 1px solid #f72cd7;
    margin-top: 10px;
    margin-left: 25%;
+   height: 100px;
 }
 
 .distanciaEnMenu{
@@ -163,4 +165,16 @@ a:hover{
 .icon-location-arrow{
     float: right;
     margin-right: 20px;
+}
+
+
+.fa-key, .fa-gift, .fa-undo, .fa-credit-card, .fa-question, .fa-cogs, .fa-car{
+    padding-right: 15px;
+    font-size: 21px;
+}
+
+.fa-key:hover, .fa-gift:hover,  .fa-undo:hover, .fa-credit-card:hover, .fa-question:hover, .fa-cogs:hover, .fa-car:hover{
+    padding-right: 15px;
+    font-size: 21px;
+    color:  #E41997;
 }
