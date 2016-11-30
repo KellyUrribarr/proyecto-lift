@@ -253,17 +253,6 @@ img {
 	color:  #E41997;
 }
 
-.fa-key, .fa-gift, .fa-undo, .fa-credit-card, .fa-question, .fa-cogs, .fa-car{
-	padding-right: 15px;
-	font-size: 21px;
-}
-
-.fa-key:hover, .fa-gift:hover,  .fa-undo:hover, .fa-credit-card:hover, .fa-question:hover, .fa-cogs:hover, .fa-car:hover{
-	padding-right: 15px;
-	font-size: 21px;
-	color:  #E41997;
-}
-
 #bonton_free{
 	width: 100%;
 	background-color: transparent;

@@ -178,6 +178,11 @@ a:hover{
     color:  #E41997;
 }
 
+h4{
+    position: relative;
+    top: 20%;
+}
+
 
 /*media jquery*/
 
@@ -269,6 +274,11 @@ hr {
     padding-bottom: 9px;
 }
 
+.nombre_guardado{
+    position: relative;
+    top: 101px;
+    left: -4%;
+}
 
 }
 

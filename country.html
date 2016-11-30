@@ -13,110 +13,63 @@
   
 </head>
 <body class="container-fluid">
- <div class="todo">
-  <div id="login">
+
+<div id="usuario_vacio">
+  <div class="row">
+    <div class="col-xs-12 col-md-4 col-lg-4"></div>
+    <div class="col-xs-12 col-md-4 col-lg-4">
+      <div class="row">
+      <div class="col-xs-12 col-md-4 col-lg-4"></div> 
+
+      <div class=" col-xs-12 col-md-12 col-lg-12">
+        <div class="row">
+        <div class="union">
+          <div class="col-xs-2 col-md-2 col-lg-2">
+            <a href="country.html"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></a>
+          </div>
+          
+          <div class="col-xs-10 col-md-10 col-lg-10">
+          <input name="file-input" id="file-input" type="file" />
+          </div>
+        </div>
+
+          <div class="col-xs-12 col-md-12 col-lg-12">
+          <img id="imgSalida" width="50%" height="50%" src="" />
+          </div>
+        </div>
+         <img class="foto_usuario" src="img/usuario.jpg"> 
+        </div>
+
+        <h1 class="text-center">Mercedes</h1>
+        <h5 class="text-center" id="ver_border">ver perfil</h5>
+      </div>
+    </div>
+    <div class="col-xs-12 col-md-4 col-lg-4"></div>
+</div>
+</div>
+
+  <div id="usuario_texto">
     <div class="row">
       <div class="col-xs-12 col-md-4 col-lg-4"></div> 
       <div class=" col-xs-12 col-md-4 col-lg-4">
-          <img class="foto-perfil" src="img/usuario.jpg">
-        <h4 class="text-center">Mercedes</h4>
-        <h5 class="text-center">ver perfil</h5>
+      <div>
+        <i class="fa fa-home" aria-hidden="true"></i>
+        <span class="text-center">From the best city ever</span>
+      </div>
+      <br>
+      <div>
+        <i class="fa fa-music" aria-hidden="true"></i>
+        <span class="text-center">Favorite music is whatever matches my mood</span>
+      </div>
+      <br>
+      <div>
+        <i class="fa fa-user" aria-hidden="true"></i>
+        <span class="text-center">I'm going places</span>
       </div>
       <div class="col-xs-12 col-md-4 col-lg-4"></div>
     </div>
   </div>
-
-  <div class="botones_login">
-    <div class="row">
-      <div class="col-xs-12 col-md-4 col-lg-4"></div> 
-      <div class="col-xs-12 col-md-4 col-lg-4">
-        <button class="text-left" id="llave">
-          <i class="fa fa-key" aria-hidden="true"></i>
-          <span>home</span>
-        </button>
-      </div> 
-      <div class="col-xs-12 col-md-4 col-lg-4"></div> 
-    </div>
-  </div>
-
-  <div class="botones_free">
-    <div class="row">
-      <div class="col-xs-12 col-md-4 col-lg-4"></div> 
-      <div class="col-xs-12 col-md-4 col-lg-4">
-        <button class="text-left" id="bonton_free">
-          <i class="fa fa-gift" aria-hidden="true"></i>
-          <span>Free Rides</span>
-        </button>
-      </div> 
-      <div class="col-xs-12 col-md-4 col-lg-4"></div> 
-    </div>
-  </div>
-
-  <div class="botones_ride">
-    <div class="row">
-      <div class="col-xs-12 col-md-4 col-lg-4"></div> 
-      <div class="col-xs-12 col-md-4 col-lg-4">
-        <button class="text-left" id="bonton_ride">
-          <i class="fa fa-undo" aria-hidden="true"></i>
-          <span>Ride history</span>
-        </button>
-      </div> 
-      <div class="col-xs-12 col-md-4 col-lg-4"></div> 
-    </div>
-  </div>
-
-  <div class="botones_pay">
-    <div class="row">
-      <div class="col-xs-12 col-md-4 col-lg-4"></div> 
-      <div class="col-xs-12 col-md-4 col-lg-4">
-        <button class="text-left" id="bonton_pay">
-          <i class="fa fa-credit-card" aria-hidden="true"></i>
-          <span>Payment</span>
-        </button>
-      </div> 
-      <div class="col-xs-12 col-md-4 col-lg-4"></div> 
-    </div>
-  </div>
-
-  <div class="botones_help">
-    <div class="row">
-      <div class="col-xs-12 col-md-4 col-lg-4"></div> 
-      <div class="col-xs-12 col-md-4 col-lg-4">
-        <button class="text-left" id="boton_help">
-          <i class="fa fa-question" aria-hidden="true"></i>
-          <span>Help</span>
-        </button>
-      </div> 
-      <div class="col-xs-12 col-md-4 col-lg-4"></div> 
-    </div>
-  </div>
-
-  <div class="botones_seguridad">
-    <div class="row">
-      <div class="col-xs-12 col-md-4 col-lg-4"></div> 
-      <div class="col-xs-12 col-md-4 col-lg-4">
-        <button class="text-left" id="boton_seguridad">
-          <i class="fa fa-cogs" aria-hidden="true"></i>
-          <span>Settings</span>
-        </button>
-      </div> 
-      <div class="col-xs-12 col-md-4 col-lg-4"></div> 
-    </div>
-  </div>
-
-  <div class="botones_conducir">
-    <div class="row">
-      <div class="col-xs-12 col-md-4 col-lg-4"></div> 
-      <div class="col-xs-12 col-md-4 col-lg-4">
-        <button class="text-left" id="boton_conducir">
-          <i class="fa fa-car" aria-hidden="true"></i>
-          <span>Settings</span>
-        </button>
-      </div> 
-      <div class="col-xs-12 col-md-4 col-lg-4"></div> 
-    </div>
-  </div>
-</div>
+  
 
 
 
@@ -125,6 +78,6 @@
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
    <script src="js/bootstrap.min.js"></script>
-   <script type="text/javascript" src="js/country.js"></script>
+  <script type="text/javascript" src="js/login.js"></script>
 </body>
 </html>
