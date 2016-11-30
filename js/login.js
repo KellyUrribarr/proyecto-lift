@@ -211,7 +211,7 @@ $("#siguiente_uno").on( "click", function() {
       var ingresar = $("#espacio").val();
       var ingresar_correo = $("#espacios_uno").val();
 
-      if (ingresar == null || ingresar_correo.length==0) {
+      if (ingresar == null || ingresar.length==0) {
         return false;
       }else{
         return true;
