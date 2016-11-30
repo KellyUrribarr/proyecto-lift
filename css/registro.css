@@ -32,9 +32,9 @@ background: -o-linear-gradient(left, rgba(255,93,177,1) 0%, rgba(239,1,124,1) 10
 background: -ms-linear-gradient(left, rgba(255,93,177,1) 0%, rgba(239,1,124,1) 100%);
 background: linear-gradient(to right, rgba(255,93,177,1) 0%, rgba(239,1,124,1) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff5db1', endColorstr='#ef017c', GradientType=1 );
-	padding: 14px 5px;
-	color:#fff;
-	font-size: 20px;
+padding: 14px 5px;
+color:#fff;
+font-size: 20px;
 }
 
 .icon-backspace{
@@ -251,7 +251,6 @@ img {
 	border-left: transparent;
 	border-right: transparent;
 	color:  #E41997;
-
 }
 
 .fa-key, .fa-undo, .fa-credit-card, .fa-question, .fa-cogs, .fa-car{
@@ -395,7 +394,6 @@ img {
 	border-top: transparent;
 	color:  #E41997;
 }
-
 
 .foto_usuario{
 	width: 100%;
@@ -659,57 +657,21 @@ section {
 	padding:20px;
 }
  
-@media screen and (max-width:800px ) {
-	header nav {
-		width:80%;
-		height:100%;
-		left:-100%;
-		margin:0;
-		position: fixed;
-	}
- 
-	header nav ul li {
-		display:block;
-		float:none;
-		border-bottom:1px solid rgba(255,255,255, .3);
-	}
- 
-	.menu_bar {
-		display:block;
-		width:100%;
-		background:#ccc;
-	}
- 
-	.menu_bar .bt-menu {
-		display:block;
-		padding:20px;
-		background:#024959;
-		color:#fff;
-		text-decoration:none;
-		font-weight: bold;
-		font-size:25px;
-		-webkit-box-sizing:border-box;
-		-moz-box-sizing:border-box;
-		box-sizing:border-box;
-	}
- 
-	.menu_bar span {
-		float:right;
-		font-size:40px;
-	}
 	
-	img #img_logo_mapa{
-		width: 100%;
-		position: absolute;
-		top: 10px;
-		z-index: 8;
-	}
+img #img_logo_mapa{
+	width: 100%;
+	position: absolute;
+	top: 10px;
+	z-index: 8;
+}
 
-	.fa-gift:before {
+.fa-gift:before {
     content: "\f06b";
     position: absolute;
     top: 24px;
     left: 37%;
     z-index: 8;
     font-size: 92px;
-   }
+}
+
+
