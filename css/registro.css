@@ -535,24 +535,20 @@ label{
 	left: 21%;
 }
 
-#siguiente, #siguiente_uno{
+#siguiente, #siguiente_uno, #siguiente_dos{
 	background-color: transparent;
 	padding: 0px 37%;
     border-color: transparent;
     color: #fff;
     text-decoration: none;
+    width: 100%;
 }
+
 
 .ver_codigo{
 	width: 100%;
 	background-color: transparent;
     border-color: transparent;
-}
-
-#codigo_seguridad{
-	border-top: transparent;
-	border-left: transparent;
-	border-right: transparent;
 }
 
 .fa-user-plus:before {
@@ -575,14 +571,14 @@ label{
 
 #espacios{
 	width: 100%;
-	padding-left: 16%;
+	padding-left: 24%;
 	padding-top: 2%;
     padding-bottom: 2%;
 }
 
 #espacios_uno{
 	width: 100%;
-	padding-left: 8%;
+	padding-left: 11%;
 	padding-top: 2%;
     padding-bottom: 2%;
 }
