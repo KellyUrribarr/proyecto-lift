@@ -115,19 +115,19 @@ a:hover{
     margin-top: 1px;
     margin-bottom: 1px;
 }
- 
+
 .perfilEnMenu{
     position: absolute;
-   left: 0px;
-   top: 0px;
-   z-index: 1;
-   width: 100px;
-   border-radius: 50%;
-   padding: 5px;
-   border: 1px solid #f72cd7;
-   margin-top: 10px;
-   margin-left: 25%;
-   height: 100px;
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+    width: 100px;
+    border-radius: 50%;
+    padding: 5px;
+    border: 1px solid #f72cd7;
+    margin-top: 10px;
+    margin-left: 25%;
+    height: 100px;
 }
 
 .distanciaEnMenu{
@@ -190,26 +190,26 @@ h4{
 @media only screen 
 and (min-device-width : 320px) 
 and (max-device-width : 480px) {
-/* Styles */
+    /* Styles */
 }
 
 /* Smartphones (landscape) ----------- */
 @media only screen 
 and (min-width : 321px) {
-/* Styles */
+    /* Styles */
 }
 
 /* Smartphones (portrait) ----------- */
 @media only screen 
 and (max-width : 320px) {
-/* Styles */
+    /* Styles */
 }
 
 /* iPads (portrait and landscape) ----------- */
 @media only screen 
 and (min-device-width : 768px) 
 and (max-device-width : 1024px) {
-/* Styles */
+    /* Styles */
 }
 
 /* iPads (landscape) ----------- */
@@ -217,7 +217,7 @@ and (max-device-width : 1024px) {
 and (min-device-width : 768px) 
 and (max-device-width : 1024px) 
 and (orientation : landscape) {
-/* Styles */
+    /* Styles */
 }
 
 /* iPads (portrait) ----------- */
@@ -225,72 +225,72 @@ and (orientation : landscape) {
 and (min-device-width : 768px) 
 and (max-device-width : 1024px) 
 and (orientation : portrait) {
-/* Styles */
+    /* Styles */
 }
 
 /* Desktops and laptops ----------- */
 @media only screen 
 and (min-width : 1224px) {
     .perfilEnMenu {
-    position: absolute;
-    left: 20%;
-    top: 0px;
-    z-index: 1;
-    width: 100px;
-    border-radius: 50%;
-    padding: 5px;
-    border: 1px solid #f72cd7;
-    margin-top: 10px;
-    margin-left: 25%;
-    height: 100px;
-}
+        position: absolute;
+        left: 20%;
+        top: 0px;
+        z-index: 1;
+        width: 100px;
+        border-radius: 50%;
+        padding: 5px;
+        border: 1px solid #f72cd7;
+        margin-top: 10px;
+        margin-left: 25%;
+        height: 100px;
+    }
 
-.paddingA {
-    padding-top: 9px;
-    padding-bottom: 9px;
-    margin-top: 117px;
+    .paddingA {
+        padding-top: 9px;
+        padding-bottom: 9px;
+        margin-top: 117px;
 
-}
+    }
 
-.verPerfil {
-    text-align: center;
-    font-size: 12px;
-    color: grey;
-    top: 117px;
-    position: relative;
-    left: -4%;
-}
+    .verPerfil {
+        text-align: center;
+        font-size: 12px;
+        color: grey;
+        top: 117px;
+        position: relative;
+        left: -4%;
+    }
 
-hr {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border: 0;
-    border-top: 1px solid #eee;
-    border-color: transparent;
-}
+    hr {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border: 0;
+        border-top: 1px solid #eee;
+        border-color: transparent;
+    }
 
-.textoFinal{
-    padding-top: 9px;
-    padding-bottom: 9px;
-}
+    .textoFinal{
+        padding-top: 9px;
+        padding-bottom: 9px;
+    }
 
-.nombre_guardado{
-    position: relative;
-    top: 101px;
-    left: -4%;
-}
+    .nombre_guardado{
+        position: relative;
+        top: 101px;
+        left: -4%;
+    }
 
 }
 
 /* Large screens ----------- */
 @media only screen 
 and (min-width : 1824px) {
-/* Styles */
+    /* Styles */
 }
 
 /* iPhone 4 ----------- */
 @media
 only screen and (-webkit-min-device-pixel-ratio : 1.5),
 only screen and (min-device-pixel-ratio : 1.5) {
-/* Styles */
+    /* Styles */
 }

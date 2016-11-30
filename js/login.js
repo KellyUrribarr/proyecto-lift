@@ -12,12 +12,12 @@ $(document).on('ready', function(){
   });
 });
 
-//--------------------------------------------------
+//-----
 
 $(document).ready(function(){ 
   $('#ocultar').toggle();
 });
-//------------------------------------
+//----
 $(document).ready(function(){ 
  $('#enlazar').on('click',function(){
   $('#desaparece').toggle();
@@ -151,7 +151,7 @@ $(document).ready(function (){
  });
 });
 
-//-----------------
+//---
 
 
 $(".ver_codigo").click(function(){
@@ -203,36 +203,36 @@ $("#siguiente_uno").click(function(){
 });
 
 
-//-----------
+//----
 
 $("#siguiente_dos").click(function(){
-var contenido_nombre_apellido = $('#espacios').val();
-        if(contenido_nombre_apellido==null || contenido_nombre_apellido.length==0 || /^\s+$/.test(contenido_nombre_apellido)){
-            alert("Campo nombre obligatorio");
-            return false;
-        }
+  var contenido_nombre_apellido = $('#espacios').val();
+  if(contenido_nombre_apellido==null || contenido_nombre_apellido.length==0 || /^\s+$/.test(contenido_nombre_apellido)){
+    alert("Campo nombre obligatorio");
+    return false;
+  }
 
-var contenido_apellido = $('#espacios_tres').val();
-        if(contenido_apellido==null || contenido_apellido.length==0 || /^\s+$/.test(contenido_apellido)){
-            alert("Campo apellido obligatorio");
-            return false;
-        }
+  var contenido_apellido = $('#espacios_tres').val();
+  if(contenido_apellido==null || contenido_apellido.length==0 || /^\s+$/.test(contenido_apellido)){
+    alert("Campo apellido obligatorio");
+    return false;
+  }
 
-        var contenido_mail = $('#espacios_uno').val();
-        if(contenido_mail==null || contenido_mail.length==0 || /^\s+$/.test(contenido_mail)){
-            alert("Email obligatorio.");
-            return false;
-        }
+  var contenido_mail = $('#espacios_uno').val();
+  if(contenido_mail==null || contenido_mail.length==0 || /^\s+$/.test(contenido_mail)){
+    alert("Email obligatorio.");
+    return false;
+  }
 
-        var seleccionar = $(".largo").is(":checked");
-        if (!seleccionar) {
-          alert("Aceptar terminos y servicios");
-          return false;
-        }
+  var seleccionar = $(".largo").is(":checked");
+  if (!seleccionar) {
+    alert("Aceptar terminos y servicios");
+    return false;
+  }
 
-        var nombre_se_guarda = $("#espacios").val();
-        localStorage.setItem("guardo_nombre", nombre_se_guarda);
-        
+  var nombre_se_guarda = $("#espacios").val();
+  localStorage.setItem("guardo_nombre", nombre_se_guarda);
+
 });
 
 $(document).ready(function(){
@@ -242,69 +242,65 @@ $(document).ready(function(){
 
 });
 
-//--------------
 
+ //---
+ $(document).ready(main);
+ var contador = 1;
+ function main(){
+  $('.verMenu').click(function(){
+    console.log(contador)
 
+    if(contador == 1){
+      $('nav').animate({
+        left: '0'
+      });
+      contador = 0;
+    } else {
+      contador = 1;
+      $('nav').animate({
+        left: '-100%'
+      });
+    }
 
- 
- //------------
-$(document).ready(main);
-var contador = 1;
-function main(){
-    $('.verMenu').click(function(){
-        console.log(contador)
-
-        if(contador == 1){
-            $('nav').animate({
-                left: '0'
-            });
-            contador = 0;
-        } else {
-            contador = 1;
-            $('nav').animate({
-                left: '-100%'
-            });
-        }
-
-    });
+  });
 
 };
 
-//-------------
+//---
 $("#file-input").on( "click", function() {
       $('.foto_usuario').hide(); //oculto mediante id
     });
- 
+
 
 $(window).load(function(){
 
  $(function() {
   $('#file-input').change(function(e) {
-      addImage(e); 
-     });
+    addImage(e); 
+  });
 
-     function addImage(e){
-      var file = e.target.files[0],
-      imageType = /image.*/;
+  function addImage(e){
+    var file = e.target.files[0],
+    imageType = /image.*/;
     
-      if (!file.type.match(imageType))
-       return;
-  
-      var reader = new FileReader();
-      reader.onload = fileOnload;
-      reader.readAsDataURL(file);
-     }
-  
-     function fileOnload(e) {
-      var result=e.target.result;
-      localStorage.setItem("guardar_imagen", result);
-      $('.foto_usuario').attr("src", localStorage.getItem("guardar_imagen"));
+    if (!file.type.match(imageType))
+     return;
+
+   var reader = new FileReader();
+   reader.onload = fileOnload;
+   reader.readAsDataURL(file);
+ }
+
+ function fileOnload(e) {
+  var result=e.target.result;
+  localStorage.setItem("guardar_imagen", result);
+  $('.foto_usuario').attr("src", localStorage.getItem("guardar_imagen"));
 
 
       //$('#imgSalida').attr("src",result);
-     }
-    });
+    }
   });
+});
 
 /*$(document).ready(function(){
   $('.esconde').hide(); //oculto mediante id
