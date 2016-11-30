@@ -242,6 +242,8 @@ $(document).ready(function(){
 
 });
 
+//--------------
+
 
 
  
@@ -295,8 +297,19 @@ $(window).load(function(){
   
      function fileOnload(e) {
       var result=e.target.result;
-      $('#imgSalida').attr("src",result);
+      localStorage.setItem("guardar_imagen", result);
+      $('.foto_usuario').attr("src", localStorage.getItem("guardar_imagen"));
+
+
+      //$('#imgSalida').attr("src",result);
      }
     });
   });
+
+/*$(document).ready(function(){
+  $('.esconde').hide(); //oculto mediante id
+
+});*/
+
+
 
