@@ -229,8 +229,21 @@ var contenido_apellido = $('#espacios_tres').val();
           alert("Aceptar terminos y servicios");
           return false;
         }
+
+        var nombre_se_guarda = $("#espacios").val();
+        localStorage.setItem("guardo_nombre", nombre_se_guarda);
         
 });
+
+$(document).ready(function(){
+  $(".nombre_guardado").append(localStorage.getItem("guardo_nombre"));
+  $(".guardo_nombre_uno").append(localStorage.getItem("guardo_nombre"));
+
+
+});
+
+
+
  
  //------------
 $(document).ready(main);
@@ -286,3 +299,4 @@ $(window).load(function(){
      }
     });
   });
+
